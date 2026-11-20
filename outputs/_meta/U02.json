@@ -1,0 +1,79 @@
+{
+  "document": {
+    "name": "U02.jpg",
+    "sha256": "80e1436d67270834c2840e3b5729c511a66818273ec3f609cdde246b7c00674b",
+    "kind": "image",
+    "pages": 1,
+    "has_text_layer": false,
+    "scanned": true,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Harborview Dental Supplies.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "09/14/2026",
+    "date_reasoning": "US address (Seattle, WA) and format MM/DD/YYYY used; 09/14/2026 is September 14, 2026.",
+    "subtotal": 831.75,
+    "tax_lines": [
+      {
+        "label": "Sales tax @ 10.25%",
+        "rate_percent": 10.25,
+        "amount": 85.25
+      }
+    ],
+    "unit_prices": [
+      64.0,
+      38.5,
+      41.25,
+      9.8,
+      36.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2455,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2037,
+      "image_tokens": 1092,
+      "output_tokens": 596,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002101,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2037,
+    "image_tokens": 1092,
+    "output_tokens": 596,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002101,
+    "priced": true
+  },
+  "latency_ms": 2602,
+  "notes": []
+}

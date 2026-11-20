@@ -1,0 +1,84 @@
+{
+  "document": {
+    "name": "L05.pdf",
+    "sha256": "e05fde8140a6581a46704653c94de9bb14fbbf49a16e5fab64e9af54a291987b",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Orbit Hardware Supplies with itemized hardware goods and a total amount due.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "27/01/2026",
+    "date_reasoning": "The date format DD/MM/YYYY is interpreted unambiguously as day-first based on the Indian address context (Hyderabad, India) and standard Indian business conventions.",
+    "subtotal": 70605.0,
+    "tax_lines": [
+      {
+        "label": "IGST @ 18%",
+        "rate_percent": 18.0,
+        "amount": 12708.9
+      }
+    ],
+    "unit_prices": [
+      640.0,
+      315.0,
+      780.0,
+      690.0,
+      3450.0,
+      1120.0,
+      96.0,
+      410.0,
+      185.0,
+      870.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 3063,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 2663,
+      "image_tokens": 1092,
+      "output_tokens": 912,
+      "thinking_tokens": 0,
+      "cost_usd": 0.003079,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2663,
+    "image_tokens": 1092,
+    "output_tokens": 912,
+    "thinking_tokens": 0,
+    "cost_usd": 0.003079,
+    "priced": true
+  },
+  "latency_ms": 3274,
+  "notes": []
+}

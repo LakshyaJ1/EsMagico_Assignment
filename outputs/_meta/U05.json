@@ -1,0 +1,88 @@
+{
+  "document": {
+    "name": "U05.pdf",
+    "sha256": "2e158a57bdb90d25f3b41de8e1542fd20802a21d721038479800d2d78e1c4d51",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": false,
+    "scanned": true,
+    "rotations_applied": [
+      90
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [
+    {
+      "code": "orientation_corrected",
+      "severity": "info",
+      "message": "Page 1 was lying sideways; rotated 90° clockwise before reading.",
+      "field": null,
+      "retryable": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Lakeside Printing Co.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "21 Oct 2026",
+    "date_reasoning": null,
+    "subtotal": 2676.0,
+    "tax_lines": [
+      {
+        "label": "VAT @ 20%",
+        "rate_percent": 20.0,
+        "amount": 535.2
+      }
+    ],
+    "unit_prices": [
+      1.42,
+      68.0,
+      41.0,
+      28.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2264,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2037,
+      "image_tokens": 1092,
+      "output_tokens": 503,
+      "thinking_tokens": 0,
+      "cost_usd": 0.001869,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 2,
+    "input_tokens": 4268,
+    "image_tokens": 3276,
+    "output_tokens": 515,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002568,
+    "priced": true
+  },
+  "latency_ms": 4262,
+  "notes": [
+    "Page 1 rotated 90° clockwise."
+  ]
+}

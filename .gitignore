@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Confidential sample pack (download with: uv run python scripts/fetch_data.py)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local run artefacts
+.cache/
+uploads/
+eval_runs/
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Assignment brief (confidential)
+EsMagico - AI Internship Assignment.pdf
+
+# Run logs
+*.log
+
+# Impeccable design-process artefacts: screenshots show confidential sample pages;
+# config.local.json is per-machine. The surface brief (.impeccable/surfaces) is kept.
+.impeccable/review/
+.impeccable/questions/
+.impeccable/decision/
+.impeccable/build/
+.impeccable/config.local.json

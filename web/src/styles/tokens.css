@@ -1,0 +1,61 @@
+/* The Worksheet: a white sheet ruled into cells, ledger-green selection, and
+   conditional-format fills that carry meaning. Light only: the scene is a clerk at a
+   daylight office desk reading figures for hours. All text pairs checked >= 4.5:1. */
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --sheet: #ffffff;
+  --canvas: #e4e8e5; /* behind the pinned document, like the grey around a page */
+  --header: #f3f5f4; /* column letters, row numbers, heading rows */
+  --header-active: #d9eadf;
+
+  /* Ink */
+  --ink: #17201b;
+  --ink-2: #48524c;
+  --ink-3: #66706a;
+  --header-ink: #5a645e;
+  --header-active-ink: #14533a;
+
+  /* Rules */
+  --grid: #dfe3e0;
+  --grid-strong: #c3cbc6;
+
+  /* Ledger green: selection, primary action, the title bar */
+  --accent: #1f6f4a;
+  --accent-strong: #185a3c;
+  --accent-soft: rgb(31 111 74 / 0.09);
+  --accent-ring: rgb(31 111 74 / 0.35);
+  --on-accent: #ffffff;
+  --on-accent-muted: #d3e7db;
+
+  /* Conditional formatting */
+  --error-fill: #f6d3cf;
+  --error-ink: #8c1d13;
+  --warn-fill: #fbeec4;
+  --warn-ink: #6b4a00;
+  --ok-ink: #1d6b45;
+  --info-ink: #2f5d8a;
+
+  /* Sequential error ramp for the evaluation matrix (one hue, validated light -> dark) */
+  --err-1: #ec9a90;
+  --err-2: #da7466;
+  --err-3: #c25244;
+  --err-4: #9b3226;
+
+  /* Type */
+  --font-ui: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --font-formula: "JetBrains Mono Variable", ui-monospace, "Cascadia Mono", monospace;
+  --fs: 13px;
+  --fs-small: 11.5px;
+
+  /* Geometry */
+  --cell-h: 26px;
+  --row-head: 44px;
+  --cell-pad: 8px;
+  --radius: 2px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-page: 0 1px 2px rgb(23 32 27 / 0.08), 0 8px 24px rgb(23 32 27 / 0.08);
+}

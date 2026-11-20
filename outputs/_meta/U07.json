@@ -1,0 +1,77 @@
+{
+  "document": {
+    "name": "U07.pdf",
+    "sha256": "f459ff2c5c3a7e25a6bcb25d8bb0133de2cb46ebf2cf73d3756d21277e69351d",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a German invoice titled 'RECHNUNG' issued by TechNova Solutions GmbH.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "28.04.2026",
+    "date_reasoning": "German format DD.MM.YYYY used, where 28.04.2026 is April 28, 2026.",
+    "subtotal": 8320.0,
+    "tax_lines": [
+      {
+        "label": "MwSt. 19 %",
+        "rate_percent": 19.0,
+        "amount": 1580.8
+      }
+    ],
+    "unit_prices": [
+      95.0,
+      110.0,
+      480.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2685,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2417,
+      "image_tokens": 1092,
+      "output_tokens": 475,
+      "thinking_tokens": 0,
+      "cost_usd": 0.001913,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2417,
+    "image_tokens": 1092,
+    "output_tokens": 475,
+    "thinking_tokens": 0,
+    "cost_usd": 0.001913,
+    "priced": true
+  },
+  "latency_ms": 3043,
+  "notes": []
+}

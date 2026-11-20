@@ -1,0 +1,99 @@
+{
+  "document": {
+    "name": "L04.pdf",
+    "sha256": "aa8796371ad583b92e4f2e006e871c3d22014769278dff6a9a617272038815bd",
+    "kind": "pdf",
+    "pages": 2,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0,
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a tax invoice issued by Meridian Print & Pack LLP.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "17 Feb 2026",
+    "date_reasoning": null,
+    "subtotal": 268290.0,
+    "tax_lines": [
+      {
+        "label": "IGST @ 12%",
+        "rate_percent": 12.0,
+        "amount": 32194.8
+      }
+    ],
+    "unit_prices": [
+      18.5,
+      26.75,
+      58.0,
+      14.2,
+      17.9,
+      1180.0,
+      46.0,
+      39.5,
+      410.0,
+      7.8,
+      690.0,
+      1325.0,
+      92.0,
+      138.0,
+      215.0,
+      168.0,
+      310.0,
+      126.0,
+      21.4,
+      640.0,
+      485.0,
+      4500.0,
+      9800.0,
+      6200.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 4545,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 4376,
+      "image_tokens": 2184,
+      "output_tokens": 1742,
+      "thinking_tokens": 0,
+      "cost_usd": 0.005668,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 4376,
+    "image_tokens": 2184,
+    "output_tokens": 1742,
+    "thinking_tokens": 0,
+    "cost_usd": 0.005668,
+    "priced": true
+  },
+  "latency_ms": 4959,
+  "notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "document": {
+    "name": "U08.pdf",
+    "sha256": "bd44e4e01dfba538f36ccc15084e65e01fdbec8b4de4ff4e2547da9d80eb7bbd",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Sakura Tea Traders B.V.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "14-03-2026",
+    "date_reasoning": "European format DD-MM-YYYY used in the Netherlands.",
+    "subtotal": 1029.0,
+    "tax_lines": [
+      {
+        "label": "VAT @ 9%",
+        "rate_percent": 9.0,
+        "amount": 81.63
+      },
+      {
+        "label": "VAT @ 21%",
+        "rate_percent": 21.0,
+        "amount": 25.62
+      }
+    ],
+    "unit_prices": [
+      42.5,
+      18.9,
+      7.25,
+      35.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2580,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2429,
+      "image_tokens": 1092,
+      "output_tokens": 537,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002071,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2429,
+    "image_tokens": 1092,
+    "output_tokens": 537,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002071,
+    "priced": true
+  },
+  "latency_ms": 2821,
+  "notes": []
+}

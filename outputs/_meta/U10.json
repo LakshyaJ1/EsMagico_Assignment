@@ -1,0 +1,67 @@
+{
+  "document": {
+    "name": "U10.pdf",
+    "sha256": "df5f80ce52670a7dd7c073fc0d12a68aa1a39058a3eb889a061f00ed503bc9ec",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "letter",
+    "reason": "The document is a job application cover letter, not an invoice.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": null,
+    "date_reasoning": null,
+    "subtotal": null,
+    "tax_lines": [],
+    "unit_prices": [],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2152,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2355,
+      "image_tokens": 1092,
+      "output_tokens": 166,
+      "thinking_tokens": 0,
+      "cost_usd": 0.001122,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2355,
+    "image_tokens": 1092,
+    "output_tokens": 166,
+    "thinking_tokens": 0,
+    "cost_usd": 0.001122,
+    "priced": true
+  },
+  "latency_ms": 2540,
+  "notes": []
+}

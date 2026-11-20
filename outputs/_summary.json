@@ -1,0 +1,220 @@
+{
+  "documents": 20,
+  "succeeded": 20,
+  "needs_review": 1,
+  "errors": 0,
+  "usage": {
+    "calls": 21,
+    "input_tokens": 51518,
+    "image_tokens": 25088,
+    "output_tokens": 11162,
+    "thinking_tokens": 0,
+    "cost_usd": 0.043362,
+    "priced": true
+  },
+  "avg_cost_usd": 0.002168,
+  "items": [
+    {
+      "name": "L01",
+      "file": "L01.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001923,
+      "latency_ms": 2858
+    },
+    {
+      "name": "L02",
+      "file": "L02.jpg",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002284,
+      "latency_ms": 2808
+    },
+    {
+      "name": "L03",
+      "file": "L03.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002183,
+      "latency_ms": 2607
+    },
+    {
+      "name": "L04",
+      "file": "L04.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.005668,
+      "latency_ms": 4959
+    },
+    {
+      "name": "L05",
+      "file": "L05.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.003079,
+      "latency_ms": 3274
+    },
+    {
+      "name": "L06",
+      "file": "L06.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002059,
+      "latency_ms": 2510
+    },
+    {
+      "name": "L07",
+      "file": "L07.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001933,
+      "latency_ms": 2361
+    },
+    {
+      "name": "L08",
+      "file": "L08.pdf",
+      "status": "ok",
+      "is_invoice": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001168,
+      "latency_ms": 1815
+    },
+    {
+      "name": "L09",
+      "file": "L09.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002189,
+      "latency_ms": 2286
+    },
+    {
+      "name": "L10",
+      "file": "L10.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002115,
+      "latency_ms": 2265
+    },
+    {
+      "name": "U01",
+      "file": "U01.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002028,
+      "latency_ms": 3232
+    },
+    {
+      "name": "U02",
+      "file": "U02.jpg",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002101,
+      "latency_ms": 2602
+    },
+    {
+      "name": "U03",
+      "file": "U03.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001667,
+      "latency_ms": 3273
+    },
+    {
+      "name": "U04",
+      "file": "U04.pdf",
+      "status": "needs_review",
+      "is_invoice": true,
+      "confidence": 0.85,
+      "review_reasons": [
+        "Row 1 'Compute instances (instance-hours)': 1440 x 0.09 = 129.60, but amount is 122.40."
+      ],
+      "cost_usd": 0.001962,
+      "latency_ms": 3128
+    },
+    {
+      "name": "U05",
+      "file": "U05.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002568,
+      "latency_ms": 4262
+    },
+    {
+      "name": "U06",
+      "file": "U06.pdf",
+      "status": "ok",
+      "is_invoice": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001267,
+      "latency_ms": 2588
+    },
+    {
+      "name": "U07",
+      "file": "U07.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001913,
+      "latency_ms": 3043
+    },
+    {
+      "name": "U08",
+      "file": "U08.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002071,
+      "latency_ms": 2821
+    },
+    {
+      "name": "U09",
+      "file": "U09.pdf",
+      "status": "ok",
+      "is_invoice": true,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.002064,
+      "latency_ms": 3114
+    },
+    {
+      "name": "U10",
+      "file": "U10.pdf",
+      "status": "ok",
+      "is_invoice": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "cost_usd": 0.001122,
+      "latency_ms": 2540
+    }
+  ]
+}

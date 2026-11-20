@@ -1,0 +1,986 @@
+{
+  "run": {
+    "model": "gemini-3.5-flash-lite",
+    "input_mode": "hybrid",
+    "thinking_level": "low",
+    "prompt_version": "v2",
+    "documents": 10,
+    "source": "live run (rotate270)",
+    "perturbation": "rotate270",
+    "orientation_fix": true,
+    "evaluated_at": "2026-11-20T19:53:18+00:00"
+  },
+  "field_accuracy": {
+    "is_invoice": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "vendor": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "invoice_number": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "invoice_date": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "currency": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "line_items": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "tax_total": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "total": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    },
+    "all_fields": {
+      "correct": 6,
+      "total": 10,
+      "accuracy": 0.6,
+      "invoices_correct": 6,
+      "invoices_total": 9
+    }
+  },
+  "line_items": {
+    "expected_rows": 66,
+    "predicted_rows": 34,
+    "matched_rows": 34,
+    "precision": 1.0,
+    "recall": 0.5151515151515151,
+    "f1": 0.6799999999999999,
+    "description_accuracy": 1.0,
+    "quantity_accuracy": 1.0,
+    "amount_accuracy": 1.0
+  },
+  "review": {
+    "documents": 10,
+    "flagged": 5,
+    "documents_with_errors": 4,
+    "errors_caught": 4,
+    "false_alarms": 1,
+    "missed": [],
+    "recall": 1.0,
+    "precision": 0.8,
+    "field_errors": 32,
+    "field_errors_in_flagged": 32,
+    "share_of_errors_in_flagged": 1.0,
+    "confidence_with_errors": null,
+    "confidence_without_errors": 0.975
+  },
+  "cost": {
+    "documents": 6,
+    "avg_input_tokens": 3842.1666666666665,
+    "avg_image_tokens": 2898.0,
+    "avg_output_tokens": 644.1666666666666,
+    "avg_thinking_tokens": 0.0,
+    "avg_calls": 1.8333333333333333,
+    "avg_cost_usd": 0.002763,
+    "total_cost_usd": 0.016578,
+    "cost_per_1000_docs_usd": 2.763,
+    "avg_cost_by_source": {
+      "photo": 0.002956,
+      "scan": 0.0027243999999999997
+    },
+    "avg_latency_ms": 13014.166666666666,
+    "max_latency_ms": 25049,
+    "all_priced": true
+  },
+  "documents": [
+    {
+      "name": "L01",
+      "source": "scan",
+      "is_invoice": true,
+      "error": null,
+      "flagged": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Northwind Logistics Ltd",
+          "predicted": "Northwind Logistics Ltd",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "NWL-88213",
+          "predicted": "NWL-88213",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-04-08",
+          "predicted": "2026-04-08",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "GBP",
+          "predicted": "GBP",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "Pallet freight, Manchester to Glasgow",
+              "quantity": 3,
+              "amount": 435.0
+            },
+            {
+              "description": "Fuel surcharge (flat rate)",
+              "quantity": 1,
+              "amount": 62.5
+            },
+            {
+              "description": "Warehousing, per pallet per week",
+              "quantity": 12,
+              "amount": 57.0
+            },
+            {
+              "description": "Proof-of-delivery admin fee",
+              "quantity": 3,
+              "amount": 15.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "Pallet freight, Manchester to Glasgow",
+              "quantity": 3,
+              "amount": 435.0
+            },
+            {
+              "description": "Fuel surcharge (flat rate)",
+              "quantity": 1,
+              "amount": 62.5
+            },
+            {
+              "description": "Warehousing, per pallet per week",
+              "quantity": 12,
+              "amount": 57.0
+            },
+            {
+              "description": "Proof-of-delivery admin fee",
+              "quantity": 3,
+              "amount": 15.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 113.9,
+          "predicted": 113.9,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 683.4,
+          "predicted": 683.4,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.002433,
+      "attempts": 1
+    },
+    {
+      "name": "L02",
+      "source": "photo",
+      "is_invoice": true,
+      "error": null,
+      "flagged": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Shree Ganesh Stationers",
+          "predicted": "Shree Ganesh Stationers",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "SGS/1847",
+          "predicted": "SGS/1847",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-08-19",
+          "predicted": "2026-08-19",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "INR",
+          "predicted": "INR",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "Exam pad A4 (200 pages)",
+              "quantity": 150,
+              "amount": 8700.0
+            },
+            {
+              "description": "Ball pen blue (box of 50)",
+              "quantity": 20,
+              "amount": 4800.0
+            },
+            {
+              "description": "Whiteboard duster",
+              "quantity": 10,
+              "amount": 350.0
+            },
+            {
+              "description": "Chart paper white (pack of 20)",
+              "quantity": 25,
+              "amount": 3000.0
+            },
+            {
+              "description": "Stapler pin No.10 (box)",
+              "quantity": 40,
+              "amount": 560.0
+            },
+            {
+              "description": "File folder, plastic",
+              "quantity": 100,
+              "amount": 2200.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "Exam pad A4 (200 pages)",
+              "quantity": 150,
+              "amount": 8700.0
+            },
+            {
+              "description": "Ball pen blue (box of 50)",
+              "quantity": 20,
+              "amount": 4800.0
+            },
+            {
+              "description": "Whiteboard duster",
+              "quantity": 10,
+              "amount": 350.0
+            },
+            {
+              "description": "Chart paper white (pack of 20)",
+              "quantity": 25,
+              "amount": 3000.0
+            },
+            {
+              "description": "Stapler pin No.10 (box)",
+              "quantity": 40,
+              "amount": 560.0
+            },
+            {
+              "description": "File folder, plastic",
+              "quantity": 100,
+              "amount": 2200.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 3529.8,
+          "predicted": 3529.8,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 23139.8,
+          "predicted": 23139.8,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.002956,
+      "attempts": 1
+    },
+    {
+      "name": "L03",
+      "source": "scan",
+      "is_invoice": true,
+      "error": null,
+      "flagged": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Kaveri Office Mart Pvt Ltd",
+          "predicted": "Kaveri Office Mart Pvt Ltd",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "KOM/26-27/00418",
+          "predicted": "KOM/26-27/00418",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-06-23",
+          "predicted": "2026-06-23",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "INR",
+          "predicted": "INR",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "A4 copier paper 75 GSM (ream)",
+              "quantity": 40,
+              "amount": 11560.0
+            },
+            {
+              "description": "Whiteboard markers (box of 10)",
+              "quantity": 12,
+              "amount": 2580.0
+            },
+            {
+              "description": "Ergonomic mesh office chair",
+              "quantity": 6,
+              "amount": 38700.0
+            },
+            {
+              "description": "Heavy-duty stapler",
+              "quantity": 4,
+              "amount": 1540.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "A4 copier paper 75 GSM (ream)",
+              "quantity": 40,
+              "amount": 11560.0
+            },
+            {
+              "description": "Whiteboard markers (box of 10)",
+              "quantity": 12,
+              "amount": 2580.0
+            },
+            {
+              "description": "Ergonomic mesh office chair",
+              "quantity": 6,
+              "amount": 38700.0
+            },
+            {
+              "description": "Heavy-duty stapler",
+              "quantity": 4,
+              "amount": 1540.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 9788.4,
+          "predicted": 9788.4,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 64168.4,
+          "predicted": 64168.4,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.002718,
+      "attempts": 1
+    },
+    {
+      "name": "L04",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L05",
+      "source": "scan",
+      "is_invoice": true,
+      "error": null,
+      "flagged": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Orbit Hardware Supplies",
+          "predicted": "ORBIT HARDWARE SUPPLIES",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "OHS-0261-26",
+          "predicted": "OHS-0261-26",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-01-27",
+          "predicted": "2026-01-27",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "INR",
+          "predicted": "INR",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "Hex bolt M10 x 60 (box of 100)",
+              "quantity": 14,
+              "amount": 8960.0
+            },
+            {
+              "description": "Wood screw 2 in (box of 500)",
+              "quantity": 20,
+              "amount": 6300.0
+            },
+            {
+              "description": "Cutting disc 4 in (pack of 25)",
+              "quantity": 12,
+              "amount": 9360.0
+            },
+            {
+              "description": "Welding electrode 3.15mm (5 kg)",
+              "quantity": 18,
+              "amount": 12420.0
+            },
+            {
+              "description": "Angle grinder 850W",
+              "quantity": 3,
+              "amount": 10350.0
+            },
+            {
+              "description": "Drill bit set HSS (13 pc)",
+              "quantity": 6,
+              "amount": 6720.0
+            },
+            {
+              "description": "Safety gloves, leather (pair)",
+              "quantity": 40,
+              "amount": 3840.0
+            },
+            {
+              "description": "Spirit level 600mm",
+              "quantity": 5,
+              "amount": 2050.0
+            },
+            {
+              "description": "Measuring tape 5m",
+              "quantity": 15,
+              "amount": 2775.0
+            },
+            {
+              "description": "Anchor fastener M12 (box of 50)",
+              "quantity": 9,
+              "amount": 7830.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "Hex bolt M10 x 60 (box of 100)",
+              "quantity": 14,
+              "amount": 8960.0
+            },
+            {
+              "description": "Wood screw 2 in (box of 500)",
+              "quantity": 20,
+              "amount": 6300.0
+            },
+            {
+              "description": "Cutting disc 4 in (pack of 25)",
+              "quantity": 12,
+              "amount": 9360.0
+            },
+            {
+              "description": "Welding electrode 3.15mm (5 kg)",
+              "quantity": 18,
+              "amount": 12420.0
+            },
+            {
+              "description": "Angle grinder 850W",
+              "quantity": 3,
+              "amount": 10350.0
+            },
+            {
+              "description": "Drill bit set HSS (13 pc)",
+              "quantity": 6,
+              "amount": 6720.0
+            },
+            {
+              "description": "Safety gloves, leather (pair)",
+              "quantity": 40,
+              "amount": 3840.0
+            },
+            {
+              "description": "Spirit level 600mm",
+              "quantity": 5,
+              "amount": 2050.0
+            },
+            {
+              "description": "Measuring tape 5m",
+              "quantity": 15,
+              "amount": 2775.0
+            },
+            {
+              "description": "Anchor fastener M12 (box of 50)",
+              "quantity": 9,
+              "amount": 7830.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 12708.9,
+          "predicted": 12708.9,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 83313.9,
+          "predicted": 83313.9,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.003486,
+      "attempts": 1
+    },
+    {
+      "name": "L06",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L07",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L08",
+      "source": "digital",
+      "is_invoice": false,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L09",
+      "source": "scan",
+      "is_invoice": true,
+      "error": null,
+      "flagged": true,
+      "confidence": 0.85,
+      "review_reasons": [
+        "Page 1 looks sideways but its orientation could not be resolved."
+      ],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Coastal Fresh Seafoods",
+          "predicted": "COASTAL FRESH SEAFOODS",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "CFS-4471",
+          "predicted": "CFS-4471",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-10-14",
+          "predicted": "2026-10-14",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "INR",
+          "predicted": "INR",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "King fish (seer), cleaned, kg",
+              "quantity": 12.5,
+              "amount": 11500.0
+            },
+            {
+              "description": "Tiger prawns 16/20, kg",
+              "quantity": 18,
+              "amount": 14040.0
+            },
+            {
+              "description": "Pomfret, whole, kg",
+              "quantity": 9.5,
+              "amount": 6080.0
+            },
+            {
+              "description": "Squid, cleaned, kg",
+              "quantity": 7,
+              "amount": 2870.0
+            },
+            {
+              "description": "Crab (live), kg",
+              "quantity": 11,
+              "amount": 6160.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "King fish (seer), cleaned, kg",
+              "quantity": 12.5,
+              "amount": 11500.0
+            },
+            {
+              "description": "Tiger prawns 16/20, kg",
+              "quantity": 18,
+              "amount": 14040.0
+            },
+            {
+              "description": "Pomfret, whole, kg",
+              "quantity": 9.5,
+              "amount": 6080.0
+            },
+            {
+              "description": "Squid, cleaned, kg",
+              "quantity": 7,
+              "amount": 2870.0
+            },
+            {
+              "description": "Crab (live), kg",
+              "quantity": 11,
+              "amount": 6160.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 2032.5,
+          "predicted": 2032.5,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 42682.5,
+          "predicted": 42682.5,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.002219,
+      "attempts": 1
+    },
+    {
+      "name": "L10",
+      "source": "scan",
+      "is_invoice": true,
+      "error": null,
+      "flagged": false,
+      "confidence": 1.0,
+      "review_reasons": [],
+      "wrong_fields": [],
+      "fields": [
+        {
+          "field": "is_invoice",
+          "correct": true,
+          "expected": true,
+          "predicted": true,
+          "detail": ""
+        },
+        {
+          "field": "vendor",
+          "correct": true,
+          "expected": "Metro Auto Parts",
+          "predicted": "Metro Auto Parts",
+          "detail": ""
+        },
+        {
+          "field": "invoice_number",
+          "correct": true,
+          "expected": "MAP/D/09-0312",
+          "predicted": "MAP/D/09-0312",
+          "detail": ""
+        },
+        {
+          "field": "invoice_date",
+          "correct": true,
+          "expected": "2026-09-03",
+          "predicted": "2026-09-03",
+          "detail": ""
+        },
+        {
+          "field": "currency",
+          "correct": true,
+          "expected": "INR",
+          "predicted": "INR",
+          "detail": ""
+        },
+        {
+          "field": "line_items",
+          "correct": true,
+          "expected": [
+            {
+              "description": "Brake pad set, front (sedan)",
+              "quantity": 8,
+              "amount": 14800.0
+            },
+            {
+              "description": "Air filter element",
+              "quantity": 12,
+              "amount": 5040.0
+            },
+            {
+              "description": "Wiper blade 20 in (pair)",
+              "quantity": 15,
+              "amount": 5700.0
+            },
+            {
+              "description": "Engine oil 5W-30, 4 L can",
+              "quantity": 20,
+              "amount": 39200.0
+            },
+            {
+              "description": "Coolant concentrate, 1 L",
+              "quantity": 18,
+              "amount": 5580.0
+            }
+          ],
+          "predicted": [
+            {
+              "description": "Brake pad set, front (sedan)",
+              "quantity": 8,
+              "amount": 14800.0
+            },
+            {
+              "description": "Air filter element",
+              "quantity": 12,
+              "amount": 5040.0
+            },
+            {
+              "description": "Wiper blade 20 in (pair)",
+              "quantity": 15,
+              "amount": 5700.0
+            },
+            {
+              "description": "Engine oil 5W-30, 4 L can",
+              "quantity": 20,
+              "amount": 39200.0
+            },
+            {
+              "description": "Coolant concentrate, 1 L",
+              "quantity": 18,
+              "amount": 5580.0
+            }
+          ],
+          "detail": ""
+        },
+        {
+          "field": "tax_total",
+          "correct": true,
+          "expected": 19689.6,
+          "predicted": 19689.6,
+          "detail": ""
+        },
+        {
+          "field": "total",
+          "correct": true,
+          "expected": 90009.6,
+          "predicted": 90009.6,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.002766,
+      "attempts": 1
+    }
+  ]
+}

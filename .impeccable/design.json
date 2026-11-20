@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T21:12:43+00:00",
+  "title": "Design System: Invoice Worksheet",
+  "extensions": {
+    "colorMeta": {
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#e4e8e5",
+        "oklch": "oklch(92.7% 0.006 153.8)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "header": {
+        "role": "neutral",
+        "displayName": "Header Grey",
+        "canonical": "#f3f5f4",
+        "oklch": "oklch(96.8% 0.002 165.1)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "header-active": {
+        "role": "primary",
+        "displayName": "Active Header",
+        "canonical": "#d9eadf",
+        "oklch": "oklch(92.1% 0.023 157.6)",
+        "tonalRamp": [
+          "#040e07",
+          "#1c2921",
+          "#38463d",
+          "#57655c",
+          "#77877d",
+          "#9aaa9f",
+          "#bdcec3",
+          "#e2f4e8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#17201b",
+        "oklch": "oklch(23.3% 0.016 160.5)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#48524c",
+        "oklch": "oklch(42.8% 0.016 159.3)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "#66706a",
+        "oklch": "oklch(53.5% 0.015 159.6)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "header-ink": {
+        "role": "neutral",
+        "displayName": "Header Ink",
+        "canonical": "#5a645e",
+        "oklch": "oklch(49.3% 0.016 159.5)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "header-active-ink": {
+        "role": "primary",
+        "displayName": "Active Header Ink",
+        "canonical": "#14533a",
+        "oklch": "oklch(39.6% 0.076 162.4)",
+        "tonalRamp": [
+          "#000f07",
+          "#002d1c",
+          "#0d4e36",
+          "#336f54",
+          "#569175",
+          "#78b497",
+          "#9cd9ba",
+          "#c1ffe0"
+        ]
+      },
+      "grid": {
+        "role": "neutral",
+        "displayName": "Gridline",
+        "canonical": "#dfe3e0",
+        "oklch": "oklch(91.2% 0.006 153.8)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "grid-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#c3cbc6",
+        "oklch": "oklch(83.4% 0.011 158.8)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Ledger Green",
+        "canonical": "#1f6f4a",
+        "oklch": "oklch(48.4% 0.097 158.9)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e1a",
+          "#005030",
+          "#22724c",
+          "#48946d",
+          "#6cb88f",
+          "#90ddb2",
+          "#c3ffdc"
+        ]
+      },
+      "accent-strong": {
+        "role": "primary",
+        "displayName": "Deep Ledger",
+        "canonical": "#185a3c",
+        "oklch": "oklch(41.8% 0.083 159.4)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e1a",
+          "#074f32",
+          "#317050",
+          "#539271",
+          "#76b593",
+          "#9adab6",
+          "#c3ffdc"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Selection Wash",
+        "canonical": "rgb(31 111 74 / 0.09)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e1a",
+          "#005030",
+          "#22724c",
+          "#48946d",
+          "#6cb88f",
+          "#90ddb2",
+          "#c3ffdc"
+        ]
+      },
+      "accent-ring": {
+        "role": "primary",
+        "displayName": "Edit Ring",
+        "canonical": "rgb(31 111 74 / 0.35)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e1a",
+          "#005030",
+          "#22724c",
+          "#48946d",
+          "#6cb88f",
+          "#90ddb2",
+          "#c3ffdc"
+        ]
+      },
+      "on-accent": {
+        "role": "primary",
+        "displayName": "On Green",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#17201b",
+          "#48524c",
+          "#66706a",
+          "#c3cbc6",
+          "#dfe3e0",
+          "#e4e8e5",
+          "#f3f5f4",
+          "#ffffff"
+        ],
+        "rampNote": "The project's own neutral scale (ink, ink-2, ink-3, grid-strong, grid, canvas, header, sheet)."
+      },
+      "on-accent-muted": {
+        "role": "primary",
+        "displayName": "Title Mist",
+        "canonical": "#d3e7db",
+        "oklch": "oklch(91.0% 0.027 159.5)",
+        "tonalRamp": [
+          "#020f07",
+          "#1a2920",
+          "#36473d",
+          "#55665c",
+          "#75887d",
+          "#97aa9f",
+          "#bbcfc3",
+          "#e0f4e8"
+        ]
+      },
+      "error-fill": {
+        "role": "secondary",
+        "displayName": "Rose Fill",
+        "canonical": "#f6d3cf",
+        "oklch": "oklch(89.5% 0.040 25.6)",
+        "tonalRamp": [
+          "#190404",
+          "#361d1b",
+          "#553a37",
+          "#765956",
+          "#997a76",
+          "#bd9c98",
+          "#e2c0bc",
+          "#ffe9e6"
+        ]
+      },
+      "error-ink": {
+        "role": "secondary",
+        "displayName": "Oxblood Ink",
+        "canonical": "#8c1d13",
+        "oklch": "oklch(42.0% 0.148 29.8)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0100",
+          "#7e0a04",
+          "#a53629",
+          "#cc5a4b",
+          "#f37e6c",
+          "#ffb3a6",
+          "#ffe9e5"
+        ]
+      },
+      "warn-fill": {
+        "role": "secondary",
+        "displayName": "Wheat Fill",
+        "canonical": "#fbeec4",
+        "oklch": "oklch(94.9% 0.056 92.9)",
+        "tonalRamp": [
+          "#100b00",
+          "#2e2400",
+          "#4c411c",
+          "#6c613b",
+          "#8e825b",
+          "#b1a57d",
+          "#d6c9a0",
+          "#fbeec4"
+        ]
+      },
+      "warn-ink": {
+        "role": "secondary",
+        "displayName": "Umber Ink",
+        "canonical": "#6b4a00",
+        "oklch": "oklch(43.4% 0.090 79.3)",
+        "tonalRamp": [
+          "#120900",
+          "#332100",
+          "#583c00",
+          "#7c5a1a",
+          "#9f7c3f",
+          "#c39f62",
+          "#e9c385",
+          "#ffeccd"
+        ]
+      },
+      "ok-ink": {
+        "role": "secondary",
+        "displayName": "Pass Ink",
+        "canonical": "#1d6b45",
+        "oklch": "oklch(47.1% 0.097 157.6)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e19",
+          "#00502f",
+          "#25714b",
+          "#4a946b",
+          "#6eb88d",
+          "#92ddb1",
+          "#c4ffdb"
+        ]
+      },
+      "info-ink": {
+        "role": "secondary",
+        "displayName": "Note Ink",
+        "canonical": "#2f5d8a",
+        "oklch": "oklch(46.7% 0.089 249.8)",
+        "tonalRamp": [
+          "#000c1c",
+          "#002647",
+          "#15446f",
+          "#366492",
+          "#5786b6",
+          "#79aadb",
+          "#9fceff",
+          "#e2f0ff"
+        ]
+      },
+      "err-1": {
+        "role": "tertiary",
+        "displayName": "Error Heat 1 (<=10% wrong)",
+        "canonical": "#ec9a90",
+        "oklch": "oklch(76.6% 0.100 27.2)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0000",
+          "#7e0c06",
+          "#a4372b",
+          "#cb5a4c",
+          "#f37e6d",
+          "#ffb3a7",
+          "#ffe9e5"
+        ],
+        "projectScale": [
+          "#9b3226",
+          "#c25244",
+          "#da7466",
+          "#ec9a90",
+          "#f6d3cf"
+        ],
+        "rampNote": "projectScale is the validated sequential ramp (err-4..err-1, then error-fill); change it only as a whole."
+      },
+      "err-2": {
+        "role": "tertiary",
+        "displayName": "Error Heat 2 (<=25% wrong)",
+        "canonical": "#da7466",
+        "oklch": "oklch(67.2% 0.130 29.1)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0000",
+          "#7e0c06",
+          "#a4372b",
+          "#cb5a4c",
+          "#f37e6d",
+          "#ffb3a7",
+          "#ffe9e5"
+        ],
+        "projectScale": [
+          "#9b3226",
+          "#c25244",
+          "#da7466",
+          "#ec9a90",
+          "#f6d3cf"
+        ],
+        "rampNote": "projectScale is the validated sequential ramp (err-4..err-1, then error-fill); change it only as a whole."
+      },
+      "err-3": {
+        "role": "tertiary",
+        "displayName": "Error Heat 3 (<=50% wrong)",
+        "canonical": "#c25244",
+        "oklch": "oklch(58.1% 0.147 29.4)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0000",
+          "#7e0c06",
+          "#a4372b",
+          "#cb5a4c",
+          "#f37e6d",
+          "#ffb3a7",
+          "#ffe9e5"
+        ],
+        "projectScale": [
+          "#9b3226",
+          "#c25244",
+          "#da7466",
+          "#ec9a90",
+          "#f6d3cf"
+        ],
+        "rampNote": "projectScale is the validated sequential ramp (err-4..err-1, then error-fill); change it only as a whole."
+      },
+      "err-4": {
+        "role": "tertiary",
+        "displayName": "Error Heat 4 (>50% wrong)",
+        "canonical": "#9b3226",
+        "oklch": "oklch(47.1% 0.142 29.8)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0000",
+          "#7e0c06",
+          "#a4372b",
+          "#cb5a4c",
+          "#f37e6d",
+          "#ffb3a7",
+          "#ffe9e5"
+        ],
+        "projectScale": [
+          "#9b3226",
+          "#c25244",
+          "#da7466",
+          "#ec9a90",
+          "#f6d3cf"
+        ],
+        "rampNote": "projectScale is the validated sequential ramp (err-4..err-1, then error-fill); change it only as a whole."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The prompt on an empty or blocked sheet only. Width axis 106%."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Toolbar titles and the wordmark (wordmark at width 112%)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Every cell and all running text; tabular figures set globally."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Buttons; pane heads use the size at 400 with a 600 title."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Status line, title-bar meta, hints, legend, notices; chips at 650."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Column letters, row numbers, page captions, legend swatches."
+      },
+      "formula": {
+        "displayName": "Formula",
+        "purpose": "Name Box, formula bar content, document codes, inline code. Never cell text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "page",
+        "value": "0 1px 2px rgb(23 32 27 / 0.08), 0 8px 24px rgb(23 32 27 / 0.08)",
+        "purpose": "Rendered pages of the source document on the grey canvas. The only outer shadow."
+      },
+      {
+        "name": "edit-underline",
+        "value": "inset 0 -2px 0 rgb(31 111 74 / 0.35)",
+        "purpose": "Editable cell under the pointer."
+      },
+      {
+        "name": "recompute-flash",
+        "value": "inset 0 0 0 999px rgb(31 111 74 / 0.24) -> 0",
+        "purpose": "A just-recomputed check cell, once, 700ms; an overlay so fills survive."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing curve."
+      },
+      {
+        "name": "glide",
+        "value": "120ms",
+        "purpose": "Selection rectangle transform/width/height; header, tab and button colour changes."
+      },
+      {
+        "name": "recompute",
+        "value": "700ms, once",
+        "purpose": "Flash on a recomputed check cell."
+      },
+      {
+        "name": "marching-ants",
+        "value": "600ms linear infinite",
+        "purpose": "Drop range while a document is being read."
+      },
+      {
+        "name": "spin",
+        "value": "900ms linear infinite",
+        "purpose": "Re-extract icon while extracting."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0ms",
+        "purpose": "prefers-reduced-motion zeroes every transition and animation; ants stop."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "900px",
+        "purpose": "max-width: panes stack (document over sheet); secondary text hides; Name Box 76px."
+      },
+      {
+        "name": "phone",
+        "value": "560px",
+        "purpose": "max-width: quiet buttons and formula actions go icon-only (Reject keeps its word); status line keeps message and last figure."
+      },
+      {
+        "name": "drop-narrow",
+        "value": "700px",
+        "purpose": "Sheet-pane width under which the empty-sheet drop range spans A4 to the edge instead of B4:E13."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Open invoice and Approve: the one ledger-green action in a region.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Approve</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border: 1px solid var(--grid-strong, #c3cbc6); border-radius: var(--radius, 2px); font: 600 12.5px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); white-space: nowrap; cursor: pointer; transition: background-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: var(--accent, #1f6f4a); border-color: var(--accent, #1f6f4a); color: var(--on-accent, #ffffff); } .ds-btn-primary:hover { background: var(--accent-strong, #185a3c); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; }"
+    },
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default bordered control on the white sheet.",
+      "html": "<button class=\"ds-btn\" type=\"button\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M12 12v6\"/><path d=\"m15 15-3-3-3 3\"/></svg> Open invoice</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border: 1px solid var(--grid-strong, #c3cbc6); border-radius: var(--radius, 2px); font: 600 12.5px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); white-space: nowrap; cursor: pointer; transition: background-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: var(--sheet, #ffffff); color: var(--ink, #17201b); } .ds-btn:hover { background: var(--header, #f3f5f4); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; } .ds-btn:disabled { color: var(--ink-3, #66706a); cursor: not-allowed; }"
+    },
+    {
+      "name": "Quiet Toggle Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Pane-head tools (Ground truth, Re-extract, Reject, JSON); aria-pressed turns on the active-header fill.",
+      "html": "<span class=\"ds-quiet-row\"><button class=\"ds-btn-quiet\" type=\"button\" aria-pressed=\"true\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M12 3v18\"/></svg> Ground truth</button><button class=\"ds-btn-quiet\" type=\"button\" aria-pressed=\"false\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg> Reject</button></span>",
+      "css": ".ds-quiet-row { display: inline-flex; gap: 6px; } .ds-btn-quiet { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border: 1px solid var(--grid-strong, #c3cbc6); border-radius: var(--radius, 2px); font: 600 12.5px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); white-space: nowrap; cursor: pointer; transition: background-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: transparent; border-color: transparent; color: var(--ink, #17201b); } .ds-btn-quiet:hover { background: var(--header, #f3f5f4); } .ds-btn-quiet[aria-pressed=\"true\"] { background: var(--header-active, #d9eadf); color: var(--header-active-ink, #14533a); border-color: #b5d3c1; } .ds-btn-quiet:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; }"
+    },
+    {
+      "name": "Formula Bar",
+      "kind": "input",
+      "refersTo": "formula-bar",
+      "description": "Name Box (takes a cell ref or document code), fx, the active cell's formula and its explanation.",
+      "html": "<div class=\"ds-formula-bar\"><input class=\"ds-name-box\" value=\"E12:E16\" aria-label=\"Name box\" spellcheck=\"false\"><span class=\"ds-fx\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3\"/><path d=\"M9 11.2h5.7\"/></svg></span><span class=\"ds-formula\">=SUM(E9:E13) → 40,650.00</span><span class=\"ds-formula-note\">Matches the subtotal printed on the document.</span></div>",
+      "css": ".ds-formula-bar { display: flex; align-items: center; height: 36px; background: var(--sheet, #ffffff); border-bottom: 1px solid var(--grid-strong, #c3cbc6); color: var(--ink, #17201b); font: 400 13px/1.4 var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); } .ds-name-box { width: 104px; height: 100%; padding: 0 10px; border: 0; border-right: 1px solid var(--grid-strong, #c3cbc6); border-radius: 0; background: transparent; font: 500 12.5px var(--font-formula, \"JetBrains Mono Variable\", ui-monospace, \"Cascadia Mono\", monospace); color: var(--ink, #17201b); } .ds-name-box:hover { background: var(--header, #f3f5f4); } .ds-name-box:focus { outline: 2px solid var(--accent, #1f6f4a); outline-offset: -2px; background: var(--sheet, #ffffff); } .ds-fx { display: inline-flex; margin: 0 8px 0 10px; color: var(--ink-3, #66706a); } .ds-formula { font: 500 12.5px var(--font-formula, \"JetBrains Mono Variable\", ui-monospace, \"Cascadia Mono\", monospace); white-space: nowrap; } .ds-formula-note { margin-left: 14px; color: var(--ink-2, #48524c); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }"
+    },
+    {
+      "name": "Sheet Bar",
+      "kind": "nav",
+      "refersTo": "sheet-tab",
+      "description": "Sheet tabs on the left, the live status line (message, Average, Count, Sum) on the right.",
+      "html": "<footer class=\"ds-sheet-bar\"><nav class=\"ds-tabs\" aria-label=\"Sheets\"><a class=\"ds-tab\" href=\"#\">Extract</a><a class=\"ds-tab is-active\" href=\"#\" aria-current=\"page\">Documents</a><a class=\"ds-tab\" href=\"#\">Evaluation</a></nav><div class=\"ds-status\"><span>L09.pdf: Ready</span><span>Average <strong>10,342.50</strong></span><span>Count <strong>5</strong></span><span>Sum <strong>51,712.50</strong></span></div></footer>",
+      "css": ".ds-sheet-bar { display: flex; align-items: stretch; height: 30px; border-top: 1px solid var(--grid-strong, #c3cbc6); background: var(--header, #f3f5f4); font: 400 13px/1.4 var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); font-variant-numeric: tabular-nums; } .ds-tabs { display: flex; padding-left: 8px; } .ds-tab { display: flex; align-items: center; padding: 0 18px; border-right: 1px solid var(--grid-strong, #c3cbc6); border-bottom: 3px solid transparent; color: var(--ink-2, #48524c); text-decoration: none; font-weight: 500; transition: background-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tab:first-child { border-left: 1px solid var(--grid-strong, #c3cbc6); } .ds-tab:hover { background: var(--sheet, #ffffff); color: var(--ink, #17201b); } .ds-tab.is-active { background: var(--sheet, #ffffff); color: var(--accent, #1f6f4a); font-weight: 650; border-bottom-color: var(--accent, #1f6f4a); } .ds-tab:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; } .ds-status { margin-left: auto; display: flex; align-items: center; gap: 18px; padding: 0 12px; font-size: 12px; color: var(--ink-2, #48524c); white-space: nowrap; } .ds-status strong { margin-left: 4px; color: var(--ink, #17201b); font-weight: 600; }"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "status-chip-ready",
+      "description": "Document verdict in the sheet pane head: Ready, Needs review, Approved, Rejected.",
+      "html": "<span class=\"ds-chips\"><span class=\"ds-chip is-ready\">Ready</span><span class=\"ds-chip is-review\">Needs review</span><span class=\"ds-chip is-approved\">Approved</span><span class=\"ds-chip is-rejected\">Rejected</span></span>",
+      "css": ".ds-chips { display: inline-flex; gap: 6px; } .ds-chip { display: inline-flex; align-items: center; height: 20px; padding: 0 8px; border-radius: var(--radius, 2px); font: 650 12px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); } .ds-chip.is-ready { background: var(--header-active, #d9eadf); color: var(--header-active-ink, #14533a); } .ds-chip.is-review { background: var(--warn-fill, #fbeec4); color: var(--warn-ink, #6b4a00); } .ds-chip.is-approved { background: var(--accent, #1f6f4a); color: var(--on-accent, #ffffff); } .ds-chip.is-rejected { background: var(--error-fill, #f6d3cf); color: var(--error-ink, #8c1d13); }"
+    },
+    {
+      "name": "Filter Toggle",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Toolbar filters on list sheets, with a trailing count; aria-pressed when on.",
+      "html": "<span class=\"ds-filters\"><button class=\"ds-filter is-on\" type=\"button\" aria-pressed=\"true\">All<span class=\"ds-count\">20</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">Needs review<span class=\"ds-count\">4</span></button></span>",
+      "css": ".ds-filters { display: inline-flex; gap: 6px; } .ds-filter { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border: 1px solid var(--grid-strong, #c3cbc6); border-radius: var(--radius, 2px); background: var(--sheet, #ffffff); color: var(--ink-2, #48524c); font: 500 12.5px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); cursor: pointer; } .ds-filter:hover { background: var(--header, #f3f5f4); } .ds-filter.is-on { background: var(--header-active, #d9eadf); border-color: #b5d3c1; color: var(--header-active-ink, #14533a); font-weight: 600; } .ds-filter:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; } .ds-count { margin-left: 6px; color: var(--ink-3, #66706a); } .ds-filter.is-on .ds-count { color: inherit; }"
+    },
+    {
+      "name": "Worksheet Grid",
+      "kind": "custom",
+      "refersTo": "cell",
+      "description": "Signature: lettered/numbered headers, 26px cells, check formulas, conditional tones, comment corners and the gliding selection with its fill handle.",
+      "html": "<div class=\"ds-grid\" tabindex=\"0\" role=\"grid\" aria-label=\"Worksheet sample\"><div class=\"ds-h\"></div><div class=\"ds-h\">D</div><div class=\"ds-h is-active\">E</div><div class=\"ds-h\">F</div><div class=\"ds-h\">8</div><div class=\"ds-c ds-head ds-r\">Unit price</div><div class=\"ds-c ds-head ds-r\">Amount</div><div class=\"ds-c ds-head\">Check</div><div class=\"ds-h is-active\">9</div><div class=\"ds-c ds-r ds-muted\">920.00</div><div class=\"ds-c ds-r ds-sel\">11,500.00</div><div class=\"ds-c ds-ok\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/></svg>=C9×D9</div><div class=\"ds-h\">10</div><div class=\"ds-c ds-r ds-muted\">0.09</div><div class=\"ds-c ds-r\">122.40</div><div class=\"ds-c ds-warn ds-comment\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v4\"/><path d=\"M12 16h.01\"/></svg>=C10×D10 ≠ amount</div><div class=\"ds-h\">11</div><div class=\"ds-c\"></div><div class=\"ds-c ds-r ds-strong\">40,650.00</div><div class=\"ds-c ds-err ds-comment\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m15 9-6 6\"/><path d=\"m9 9 6 6\"/></svg>≠ printed 40,560.00</div></div>",
+      "css": ".ds-grid { display: grid; grid-template-columns: 44px 96px 110px 190px; grid-auto-rows: 26px; background: var(--sheet, #ffffff); color: var(--ink, #17201b); font: 400 13px/1.4 var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); font-variant-numeric: tabular-nums; cursor: cell; outline: none; } .ds-h { display: flex; align-items: center; justify-content: center; background: var(--header, #f3f5f4); color: var(--header-ink, #5a645e); font-size: 11.5px; border-right: 1px solid var(--grid-strong, #c3cbc6); border-bottom: 1px solid var(--grid-strong, #c3cbc6); transition: background-color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 120ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-h.is-active { background: var(--header-active, #d9eadf); color: var(--header-active-ink, #14533a); font-weight: 650; } .ds-c { position: relative; display: flex; align-items: center; gap: 5px; padding: 0 8px; border-right: 1px solid var(--grid, #dfe3e0); border-bottom: 1px solid var(--grid, #dfe3e0); white-space: nowrap; overflow: hidden; } .ds-head { background: var(--header, #f3f5f4); color: var(--ink-2, #48524c); font-weight: 650; font-stretch: 94%; } .ds-r { justify-content: flex-end; } .ds-strong { font-weight: 650; } .ds-muted { color: var(--ink-3, #66706a); } .ds-ok { color: var(--ok-ink, #1d6b45); } .ds-warn { background: var(--warn-fill, #fbeec4); color: var(--warn-ink, #6b4a00); } .ds-err { background: var(--error-fill, #f6d3cf); color: var(--error-ink, #8c1d13); } .ds-comment::after { content: \"\"; position: absolute; top: 0; right: 0; border-left: 7px solid transparent; border-top: 7px solid var(--accent, #1f6f4a); } .ds-warn.ds-comment::after { border-top-color: var(--warn-ink, #6b4a00); } .ds-err.ds-comment::after { border-top-color: var(--error-ink, #8c1d13); } .ds-sel { background-image: linear-gradient(var(--accent-soft, rgb(31 111 74 / 0.09)), var(--accent-soft, rgb(31 111 74 / 0.09))); box-shadow: inset 0 0 0 2px var(--accent, #1f6f4a); } .ds-sel::after { content: \"\"; position: absolute; right: 0; bottom: 0; width: 7px; height: 7px; background: var(--accent, #1f6f4a); border: 1px solid var(--sheet, #ffffff); } .ds-grid:not(:focus) .ds-sel { box-shadow: inset 0 0 0 2px #8fb7a2; } .ds-grid:focus-visible { outline: 2px solid var(--accent, #1f6f4a); outline-offset: 1px; }"
+    },
+    {
+      "name": "Heat Legend",
+      "kind": "custom",
+      "refersTo": "heat-1",
+      "description": "Evaluation matrix fill scale: share of documents with a field wrong; ink labels on steps 1-2, white on 3-4.",
+      "html": "<span class=\"ds-legend\">Wrong: <span class=\"ds-swatch\">0%</span><span class=\"ds-swatch ds-e1\">≤10%</span><span class=\"ds-swatch ds-e2\">≤25%</span><span class=\"ds-swatch ds-e3\">≤50%</span><span class=\"ds-swatch ds-e4\">&gt;50%</span></span>",
+      "css": ".ds-legend { display: inline-flex; align-items: center; gap: 4px; font: 400 12px var(--font-ui, \"Archivo Variable\", \"Archivo\", system-ui, sans-serif); color: var(--ink-2, #48524c); } .ds-swatch { display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 20px; border: 1px solid var(--grid, #dfe3e0); font-size: 11.5px; background: var(--sheet, #ffffff); color: var(--ink, #17201b); } .ds-e1 { background: var(--err-1, #ec9a90); } .ds-e2 { background: var(--err-2, #da7466); } .ds-e3 { background: var(--err-3, #c25244); color: var(--on-accent, #ffffff); } .ds-e4 { background: var(--err-4, #9b3226); color: var(--on-accent, #ffffff); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Worksheet",
+    "overview": "The whole app is one spreadsheet workbook. A ledger-green title bar sits on top, then a formula bar (Name Box, fx, the active cell's content and its explanation, the primary action), then the body, then sheet tabs and a live status line along the bottom. Each extraction is a worksheet: lettered columns, numbered rows, header fields, line items, totals, a Review block and a Run block. Every check is written out as a formula in its Check cell, every finding is a conditional format, and the clerk's range selection sums in the status bar exactly where a spreadsheet user looks for a total. The source document is pinned beside the sheet like a frozen pane, on a grey canvas.\n\nDensity is the point: 13px type, 26px rows, 1px rules, tabular figures. Nothing floats, nothing is a card. Depth comes from rules and header fills; colour comes almost entirely from meaning (selection green, rose and wheat findings, the red heat ramp on the Evaluation sheet). The system is light only (`color-scheme: light`): a clerk reading figures at a daylight desk for hours.\n\nThe build has no sidebar, no white cards and no KPI tiles. Metrics on the Evaluation sheet are cells in run rows, and the document list is itself a grid.",
+    "keyCharacteristics": [
+      "One workbook frame on every view: title bar, formula bar, body, sheet bar. The page never scrolls; panes and grids do.",
+      "A white sheet ruled by 1px gridlines, grey A/B/C and 1/2/3 headers, sticky headers and frozen first rows.",
+      "Ledger green marks where you are and what you do: selection, active headers, active tab, focus, primary action, title bar.",
+      "Conditional formats carry meaning: rose fill = wrong, wheat fill = look at this, green/blue/grey ink = passed / info / evidence.",
+      "Checks read as formulas (`=C9×D9`, `=SUM(E15:E16)`, `≠ printed 40,650.00`); the formula bar explains the active cell in a sentence.",
+      "Corners are square or 2px. One soft shadow, under the document page.",
+      "Motion is functional and short: the selection glides (120ms), a recomputed check flashes once, reading shows marching ants."
+    ],
+    "rules": [
+      {
+        "name": "The Green Means Here Rule",
+        "body": "Ledger green marks position and action only. A passed check uses Pass Ink (#1d6b45), never the accent and never a fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Fills Rule",
+        "body": "Inside the worksheet, only rose and wheat fill a cell, and a fill always means a person should look. Ok, info and muted are ink-only; the heat ramp is the one other fill set and lives only in the Evaluation matrix.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paired Tone Rule",
+        "body": "Tones are applied as fill+ink pairs through the tone classes. Every pair clears 4.5:1; the one pair that would not (Ink 3 on wheat, 4.43:1) is never combined, so never put muted text on a warn fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Weight Not Size Rule",
+        "body": "Inside the sheet, emphasis is weight (650 for totals, headings, verdicts), never a larger size. Heading rows are condensed to 94% width and set in Ink 2 on Header Grey.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is For References Rule",
+        "body": "Mono is for the Name Box, the formula bar, document codes and inline code. Cell text, including the formulas in the Check column, stays in Archivo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Figures are tabular and money is right-aligned in its column; the shared formatter (`format.ts`) renders money and quantities.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Shadow Rule",
+        "body": "Only paper casts a shadow. Panels, menus, chips and buttons stay flat and are separated by rules.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every new number in a cell: 13px tabular figures, right-aligned, formatted by `format.ts`, with a `value` so range Sum/Average works.",
+      "**Do** write a new check as a formula in the Check column (`=…` with an ok icon when it holds, `≠ …` with an error or warn tone and a comment corner when it does not) and give the cell a `note` sentence for the formula bar.",
+      "**Do** separate sections inside a sheet with a blank row and a grey heading row, and freeze a list's header row.",
+      "**Do** add a new view as a sheet tab with its own Grid, a 38px toolbar row for its title and filters, and the shared title bar, formula bar and sheet bar.",
+      "**Do** keep chrome on the existing heights: 30px bars, 36px formula bar and pane heads, 26px rows and buttons, 24px icon buttons and filters, 20px chips.",
+      "**Do** add any new colour to `tokens.css` and contrast-check it against every fill it can sit on before use.",
+      "**Do** keep the document pinned beside the sheet whenever a single document is open."
+    ],
+    "donts": [
+      "**Don't** add cards, KPI tiles or a sidebar; a metric is a cell in a row, as on the Evaluation sheet.",
+      "**Don't** fill a cell green for success or use Ledger Green to mean \"correct\"; pass is ink-only, and green means selection and action.",
+      "**Don't** fill cells with any colour beyond rose, wheat and (on the Evaluation matrix only) the heat ramp; header and selection tints are the only other fills.",
+      "**Don't** put Ink 3 text on the wheat fill.",
+      "**Don't** round anything past 2px or give anything but the document page an outer shadow.",
+      "**Don't** set cell text in the mono face or enlarge type to emphasize inside the sheet; use weight 650.",
+      "**Don't** animate content in or out; motion is limited to the selection glide, the once-only recompute flash and progress indicators, and all of it must stop under reduced motion.",
+      "**Don't** let the page scroll or overflow horizontally; scrolling belongs to panes and grids.",
+      "**Don't** treat the hex literals in `app.css` (#cfe5d8 text selection, #b5d3c1 pressed border, #8fb7a2 idle selection) as precedent; reuse means promoting them to `tokens.css` first."
+    ]
+  }
+}

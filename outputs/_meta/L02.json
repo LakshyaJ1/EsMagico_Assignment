@@ -1,0 +1,85 @@
+{
+  "document": {
+    "name": "L02.jpg",
+    "sha256": "20e9597f9dc46c26e9b3b83834e70e351799e6ec426536b0151cb60e6d645484",
+    "kind": "image",
+    "pages": 1,
+    "has_text_layer": false,
+    "scanned": true,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a tax invoice issued by Shree Ganesh Stationers.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "19/08/2026",
+    "date_reasoning": "Indian format DD/MM/YYYY is standard given the address in Nashik, India and INR currency.",
+    "subtotal": 19610.0,
+    "tax_lines": [
+      {
+        "label": "CGST @ 9%",
+        "rate_percent": 9.0,
+        "amount": 1764.9
+      },
+      {
+        "label": "SGST @ 9%",
+        "rate_percent": 9.0,
+        "amount": 1764.9
+      }
+    ],
+    "unit_prices": [
+      58.0,
+      240.0,
+      35.0,
+      120.0,
+      14.0,
+      22.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2695,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 2037,
+      "image_tokens": 1092,
+      "output_tokens": 669,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002284,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2037,
+    "image_tokens": 1092,
+    "output_tokens": 669,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002284,
+    "priced": true
+  },
+  "latency_ms": 2808,
+  "notes": []
+}

@@ -1,0 +1,84 @@
+{
+  "document": {
+    "name": "L09.pdf",
+    "sha256": "2654fb3eba54ee2fb5ddfe995984cb319146806568bea48ba366aea8a0265843",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": false,
+    "scanned": true,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Coastal Fresh Seafoods.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "14/10/2026",
+    "date_reasoning": "Indian address and context makes day-first (14/10/2026) standard.",
+    "subtotal": 40650.0,
+    "tax_lines": [
+      {
+        "label": "CGST @ 2.5%",
+        "rate_percent": 2.5,
+        "amount": 1016.25
+      },
+      {
+        "label": "SGST @ 2.5%",
+        "rate_percent": 2.5,
+        "amount": 1016.25
+      }
+    ],
+    "unit_prices": [
+      920.0,
+      780.0,
+      640.0,
+      410.0,
+      560.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2133,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 2037,
+      "image_tokens": 1092,
+      "output_tokens": 631,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002189,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2037,
+    "image_tokens": 1092,
+    "output_tokens": 631,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002189,
+    "priced": true
+  },
+  "latency_ms": 2286,
+  "notes": []
+}

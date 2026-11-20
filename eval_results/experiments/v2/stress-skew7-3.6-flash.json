@@ -1,0 +1,327 @@
+{
+  "run": {
+    "model": "gemini-3.6-flash",
+    "input_mode": "hybrid",
+    "thinking_level": "low",
+    "prompt_version": "v2",
+    "documents": 10,
+    "source": "live run (skew7)",
+    "perturbation": "skew7",
+    "orientation_fix": true,
+    "evaluated_at": "2026-11-20T20:17:15+00:00"
+  },
+  "field_accuracy": {
+    "is_invoice": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "vendor": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "invoice_number": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "invoice_date": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "currency": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "line_items": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "tax_total": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "total": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    },
+    "all_fields": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "invoices_correct": 0,
+      "invoices_total": 9
+    }
+  },
+  "line_items": {
+    "expected_rows": 66,
+    "predicted_rows": 0,
+    "matched_rows": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "description_accuracy": 0.0,
+    "quantity_accuracy": 0.0,
+    "amount_accuracy": 0.0
+  },
+  "review": {
+    "documents": 10,
+    "flagged": 10,
+    "documents_with_errors": 10,
+    "errors_caught": 10,
+    "false_alarms": 0,
+    "missed": [],
+    "recall": 1.0,
+    "precision": 1.0,
+    "field_errors": 80,
+    "field_errors_in_flagged": 80,
+    "share_of_errors_in_flagged": 1.0,
+    "confidence_with_errors": null,
+    "confidence_without_errors": null
+  },
+  "cost": {},
+  "documents": [
+    {
+      "name": "L01",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L02",
+      "source": "photo",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L03",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L04",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L05",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L06",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L07",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L08",
+      "source": "digital",
+      "is_invoice": false,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L09",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    },
+    {
+      "name": "L10",
+      "source": "digital",
+      "is_invoice": true,
+      "error": "llm_unavailable: Rate limited by the Gemini API after retries.",
+      "flagged": true,
+      "confidence": null,
+      "review_reasons": [],
+      "wrong_fields": [
+        "is_invoice",
+        "vendor",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "line_items",
+        "tax_total",
+        "total"
+      ],
+      "fields": [],
+      "cost_usd": null,
+      "attempts": 0
+    }
+  ]
+}

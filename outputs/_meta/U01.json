@@ -1,0 +1,87 @@
+{
+  "document": {
+    "name": "U01.pdf",
+    "sha256": "e165febf8982381c0a3b0357fc9e90c360ba1bae7d003712bf3b1b4ec3219de7",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a tax invoice issued by Blue Lotus Hospitality.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "10-Nov-2026",
+    "date_reasoning": null,
+    "subtotal": 27680.0,
+    "tax_lines": [
+      {
+        "label": "GST @ 12% (room)",
+        "rate_percent": 12.0,
+        "amount": 2592.0
+      },
+      {
+        "label": "GST @ 5% (restaurant)",
+        "rate_percent": 5.0,
+        "amount": 271.5
+      },
+      {
+        "label": "GST @ 18% (laundry)",
+        "rate_percent": 18.0,
+        "amount": 117.0
+      }
+    ],
+    "unit_prices": [
+      7200.0,
+      5430.0,
+      650.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 3041,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2484,
+      "image_tokens": 1092,
+      "output_tokens": 513,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002028,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2484,
+    "image_tokens": 1092,
+    "output_tokens": 513,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002028,
+    "priced": true
+  },
+  "latency_ms": 3232,
+  "notes": []
+}

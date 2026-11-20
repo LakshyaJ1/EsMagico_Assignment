@@ -1,0 +1,78 @@
+{
+  "document": {
+    "name": "L06.pdf",
+    "sha256": "de7f5517f3863ae3110cd041786f3a3251c85191f4ae488f8151acd10985bd67",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a tax invoice issued by Anand & Rao Associates.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "30-05-2026",
+    "date_reasoning": null,
+    "subtotal": 60740.0,
+    "tax_lines": [
+      {
+        "label": "IGST @ 18%",
+        "rate_percent": 18.0,
+        "amount": 10933.2
+      }
+    ],
+    "unit_prices": [
+      45000.0,
+      6500.0,
+      8000.0,
+      1240.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2300,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 2521,
+      "image_tokens": 1092,
+      "output_tokens": 521,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002059,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2521,
+    "image_tokens": 1092,
+    "output_tokens": 521,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002059,
+    "priced": true
+  },
+  "latency_ms": 2510,
+  "notes": []
+}

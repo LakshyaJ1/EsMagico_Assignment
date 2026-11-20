@@ -1,0 +1,88 @@
+{
+  "document": {
+    "name": "U04.pdf",
+    "sha256": "7e8a43ac829e24de578bcc8e321d2bce96ca77c28a7af0196a7aaa12dd5c8006",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": true,
+    "scanned": false,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "needs_review",
+  "review": {
+    "needs_review": true,
+    "confidence": 0.85,
+    "reasons": [
+      "Row 1 'Compute instances (instance-hours)': 1440 x 0.09 = 129.60, but amount is 122.40."
+    ]
+  },
+  "issues": [
+    {
+      "code": "line_arithmetic",
+      "severity": "warning",
+      "message": "Row 1 'Compute instances (instance-hours)': 1440 x 0.09 = 129.60, but amount is 122.40.",
+      "field": "line_items",
+      "retryable": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is an invoice issued by Bluefin Cloud Services Inc.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "2026-07-01",
+    "date_reasoning": null,
+    "subtotal": 528.9,
+    "tax_lines": [
+      {
+        "label": "Tax (reverse charge / not applicable)",
+        "rate_percent": null,
+        "amount": 0.0
+      }
+    ],
+    "unit_prices": [
+      0.09,
+      249.0,
+      23.0,
+      100.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2799,
+      "cached": false,
+      "calls": 1,
+      "input_tokens": 2422,
+      "image_tokens": 1092,
+      "output_tokens": 494,
+      "thinking_tokens": 0,
+      "cost_usd": 0.001962,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2422,
+    "image_tokens": 1092,
+    "output_tokens": 494,
+    "thinking_tokens": 0,
+    "cost_usd": 0.001962,
+    "priced": true
+  },
+  "latency_ms": 3128,
+  "notes": []
+}

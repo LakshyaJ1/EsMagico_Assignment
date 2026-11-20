@@ -1,0 +1,84 @@
+{
+  "document": {
+    "name": "L10.pdf",
+    "sha256": "a8d817f496b111ddb504862205e40e0173efcb961fbf2a4beab2cc6a0b16dfef",
+    "kind": "pdf",
+    "pages": 1,
+    "has_text_layer": false,
+    "scanned": true,
+    "rotations_applied": [
+      0
+    ],
+    "warnings": []
+  },
+  "status": "ok",
+  "review": {
+    "needs_review": false,
+    "confidence": 1.0,
+    "reasons": []
+  },
+  "issues": [],
+  "model": "gemini-3.5-flash-lite",
+  "served_by": [
+    "gemini-3.5-flash-lite"
+  ],
+  "input_mode": "hybrid",
+  "classification": {
+    "document_type": "invoice",
+    "reason": "The document is a tax invoice issued by Metro Auto Parts.",
+    "legibility": "clear"
+  },
+  "evidence": {
+    "invoice_date_as_printed": "03 Sep 2026",
+    "date_reasoning": null,
+    "subtotal": 70320.0,
+    "tax_lines": [
+      {
+        "label": "CGST @ 14%",
+        "rate_percent": 14.0,
+        "amount": 9844.8
+      },
+      {
+        "label": "SGST @ 14%",
+        "rate_percent": 14.0,
+        "amount": 9844.8
+      }
+    ],
+    "unit_prices": [
+      1850.0,
+      420.0,
+      380.0,
+      1960.0,
+      310.0
+    ],
+    "uncertain_fields": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "purpose": "extraction",
+      "served_by": "gemini-3.5-flash-lite",
+      "errors": [],
+      "latency_ms": 2081,
+      "cached": true,
+      "calls": 1,
+      "input_tokens": 2009,
+      "image_tokens": 1064,
+      "output_tokens": 605,
+      "thinking_tokens": 0,
+      "cost_usd": 0.002115,
+      "priced": true
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 2009,
+    "image_tokens": 1064,
+    "output_tokens": 605,
+    "thinking_tokens": 0,
+    "cost_usd": 0.002115,
+    "priced": true
+  },
+  "latency_ms": 2265,
+  "notes": []
+}
